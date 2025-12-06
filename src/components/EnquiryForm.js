@@ -46,7 +46,7 @@ function EnquiryForm({ productId, close }) {
           />
 
           <input
-            type="text"
+            type="tel"
             placeholder="Phone (optional)"
             onChange={(e) => setForm({ ...form, phone: e.target.value })}
           />
