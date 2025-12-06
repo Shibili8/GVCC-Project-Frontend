@@ -28,6 +28,7 @@ function AdminLogin({ onLogin }) {
         type="text"
         placeholder="Enter admin token"
         value={token}
+        className="login-input"
         onChange={(e) => {
           setToken(e.target.value);
           setError("");

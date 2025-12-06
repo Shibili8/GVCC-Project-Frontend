@@ -257,7 +257,7 @@ body {
 
 .admin-login input {
   width: 100%;
-  padding: 14px;
+  padding: 14px 0px 14px 14px;
   margin-bottom: 15px;
   border-radius: 6px;
   border: 1px solid #ccc;
