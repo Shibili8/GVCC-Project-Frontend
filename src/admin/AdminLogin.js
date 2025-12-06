@@ -25,7 +25,7 @@ function AdminLogin({ onLogin }) {
       <h2>Admin Login</h2>
 
       <input
-        type="password"
+        type="text"
         placeholder="Enter admin token"
         value={token}
         onChange={(e) => {
